@@ -4,8 +4,11 @@ const Section7 = () => {
   return (
     <section className="pt-[9.5rem] pb-[5rem] bg-light-pink">
       {/* header */}
-      <header className="flex flex-col justify-center  gap-[1.6rem] leading[2.1rem] items-center text-center mb-[4.1rem]">
-        <h1 className="text-[#3A643B] text-[3.2rem] w-[80%] leading-[3.6rem] font-bold capitalize   sm:text-[4.8rem] sm:leading-[5.4rem]">
+      <header className="flex flex-col justify-center  gap-[1.6rem] leading[2.1rem] items-center text-center mb-[4.1rem] ">
+        <h1
+          className="text-[#3A643B] text-[3.2rem] w-[80%] leading-[3.6rem] font-bold capitalize   sm:text-[4.8rem] sm:leading-[5.4rem] 
+          "
+        >
           Stories From Our Valued Customers!
         </h1>
       </header>
@@ -15,7 +18,7 @@ const Section7 = () => {
           {/* first */}
           <div
             className="flex flex-col items-start justify-start text-start  min-h-[29rem]  w-full max-w-[30.4rem] sm:max-w-[38.8rem]
-             bg-white rounded-[2rem]  [box-shadow:0px_4px_9px_#0000001C] overflow-hidden pb-[4.5rem]"
+             bg-white rounded-[2rem]  [box-shadow:0px_4px_9px_#0000001C] overflow-hidden pb-[4.5rem]  cursor-pointer hover:scale-90 transition-all"
           >
             <h1 className="font-bold  [font-family:Nunito] text-[1.6rem] sm:text-[1.8rem] bg-[#ECE7FF] py-[1.7rem]  px-[2.4rem] w-full text-start ">
               Consulted for Skin
@@ -52,7 +55,7 @@ const Section7 = () => {
           {/* second */}
           <div
             className="flex flex-col items-start justify-start text-start  min-h-[29rem]  w-full max-w-[30.4rem] sm:max-w-[38.8rem]
-             bg-white rounded-[2rem]  [box-shadow:0px_4px_9px_#0000001C] overflow-hidden pb-[4.5rem]"
+             bg-white rounded-[2rem]  [box-shadow:0px_4px_9px_#0000001C] overflow-hidden pb-[4.5rem]  cursor-pointer hover:scale-90 transition-all"
           >
             <h1 className="font-bold  [font-family:Nunito] text-[1.6rem] sm:text-[1.8rem] bg-[#ECFEE7] py-[1.7rem]  px-[2.4rem] w-full text-start ">
               Consulted for Hair
@@ -89,7 +92,7 @@ const Section7 = () => {
           {/* Third */}
           <div
             className="flex flex-col items-start justify-start text-start  min-h-[29rem]  w-full max-w-[30.4rem] sm:max-w-[38.8rem]
-             bg-white rounded-[2rem]  [box-shadow:0px_4px_9px_#0000001C] overflow-hidden pb-[4.5rem]"
+             bg-white rounded-[2rem]  [box-shadow:0px_4px_9px_#0000001C] overflow-hidden pb-[4.5rem]  cursor-pointer hover:scale-90 transition-all"
           >
             <h1 className="font-bold  [font-family:Nunito] text-[1.6rem] sm:text-[1.8rem] bg-[#ECFEE7] py-[1.7rem]  px-[2.4rem] w-full text-start ">
               Consulted for Hair

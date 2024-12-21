@@ -26,7 +26,10 @@ const Section6 = () => {
     <section className="pt-[9.5rem] pb-[10.6rem]">
       {/* header */}
       <header className="flex flex-col justify-center  gap-[1.6rem] leading[2.1rem] items-center text-center mb-[4.1rem]">
-        <h1 className="text-[#3A643B] text-[3.2rem] w-[80%] leading-[3.6rem] font-bold  capitalize sm:text-[4.8rem] sm:leading-[5.4rem]">
+        <h1
+          className="text-[#3A643B] text-[3.2rem] w-[80%]  leading-[3.6rem] font-bold  capitalize sm:text-[4.8rem] sm:leading-[5.4rem]
+        "
+        >
           Our ayurvedic approach
         </h1>
         <p className="text-[#666666] text-[1.6rem] sm:text-[2rem] leading[2.8rem] sm:max-w-[67.1rem] max-w-[29.8rem]">
@@ -42,7 +45,7 @@ const Section6 = () => {
           {List.map((item, index) => (
             <div
               className="flex flex-col items-center justify-center text-center  min-h-[29rem]  w-full max-w-[30rem]
-             py-[4.8rem] px-[3.2rem] bg-light-pink rounded-[2rem] border-t-[.5rem] border-light-green [box-shadow:0px_4px_9px_#0000001C]"
+             py-[4.8rem] px-[3.2rem] bg-light-pink rounded-[2rem] border-t-[.5rem] border-light-green [box-shadow:0px_4px_9px_#0000001C] cursor-pointer hover:scale-90 transition-all"
             >
               <span className="text-[4.8rem] font-bold bg-[#3A643BA8] h-[9rem] aspect-square content-center border-light-green border rounded-full text-white">
                 {index + 1}

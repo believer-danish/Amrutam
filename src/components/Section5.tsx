@@ -16,8 +16,11 @@ const Section5: React.FC = () => {
       <h1 className="text-[3.2rem] sm:text-[6.4rem] font-medium text-white  w-[85%] max-w-[85.6rem] text-center">
         Ready to restore harmony in your mind, body and spirit?{" "}
       </h1>
-      <button className="mt-[4.8rem] text-[2rem] sm:text-[2.4rem] max-w-[27.4rem] sm:max-w-[30.5rem] font-medium cursor-pointer [font-family:Din] text-white bg-[#3A643B]  py-[1.5rem] px-[2.8rem] rounded-[1rem]">
-        Book a consultation
+      <button
+        className="mt-[4.8rem] text-[2rem] sm:text-[2.4rem] max-w-[27.4rem] sm:max-w-[30.5rem] font-medium cursor-pointer [font-family:Din] text-white bg-[#3A643B]  py-[1.5rem] px-[2.8rem] rounded-[1rem]
+      relative overflow-hidden before:absolute before:inset-0 before:w-0 hover:before:w-full before:h-full before:[transition:width_.5s_ease] before:bg-red-500"
+      >
+        <span className="relative z-10">Book a consultation</span>
       </button>
     </section>
   );

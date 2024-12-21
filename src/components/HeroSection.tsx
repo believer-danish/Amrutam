@@ -7,7 +7,10 @@ const HeroSection = () => {
       className="relative flex items-center justify-center sm:justify-start sm:pl-[10rem]  max-sm:bg-gradient-to-b max-sm:from-[#181818DE] max-sm:to-[#2222227A] 
       min-h-[54rem] sm:min-h-[63.9rem] [background-image:linear-gradient(to_right,#221414_40%,#281312_54%,#01010100)]"
     >
-      <div className="flex flex-col gap-[1.6rem] justify-center  max-w-[31rem] sm:max-w-[90.4rem]  relative z-10">
+      <div
+        className="flex flex-col gap-[1.6rem] justify-center  max-w-[31rem] sm:max-w-[90.4rem]  relative z-10
+      motion-scale-in-[0.5] motion-translate-x-in-[-120%] motion-translate-y-in-[-60%] motion-opacity-in-[33%] motion-blur-in-[10px] motion-delay-[0.38s]/scale motion-duration-[0.38s]/opacity motion-duration-[0.15s]/blur motion-delay-[0.60s]/blur motion-ease-spring-bouncier"
+      >
         <h1 className="[font-family:NexaLight] text-[#FFF7E2] sm:text-[2.8rem]">
           Namaste, Welcome to Amrutam{" "}
         </h1>
@@ -22,8 +25,12 @@ const HeroSection = () => {
           Anytime, anywhere.
         </p>
 
-        <button className="mt-[4.8rem] sm:text-[2rem] sm:max-w-[30.5rem] cursor-pointer [font-family:Din] text-white bg-[#3A643B] text-[1.4rem] max-w-[21.4rem] py-[1.5rem] px-[2.8rem] rounded-[1rem]">
-          Book an Appointment
+        <button
+          className="mt-[4.8rem] sm:text-[2rem] sm:max-w-[30.5rem] cursor-pointer [font-family:Din]
+         text-white bg-[#3A643B] text-[1.4rem] max-w-[21.4rem] py-[1.5rem] px-[2.8rem] rounded-[1rem]
+         relative overflow-hidden before:absolute before:inset-0 before:w-0 hover:before:w-full before:h-full before:[transition:width_.5s_ease] before:bg-red-500 "
+        >
+          <span className="relative z-10">Book an Appointment</span>
         </button>
       </div>
       <img

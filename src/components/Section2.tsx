@@ -29,7 +29,7 @@ const Section2 = () => {
       {
         <div className="flex  max-md:flex-col justify-center items-center max-md:items-start ">
           {List.map((e: Product) => (
-            <div className="flex items-center justify-center gap-[1.2rem] py-[4rem] max-md:py-[2.6rem] pl-[2.4rem] pr-[1.1rem] max-md:border-b border-slate-300 max-md:w-full max-md:justify-start">
+            <div className="flex items-center cursor-pointer justify-center gap-[1.2rem] py-[4rem] max-md:py-[2.6rem] pl-[2.4rem] pr-[1.1rem] max-md:border-b border-slate-300 max-md:w-full max-md:justify-start">
               <img
                 src={e.img}
                 alt="section2 image"

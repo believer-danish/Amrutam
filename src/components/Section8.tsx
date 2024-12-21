@@ -16,7 +16,7 @@ const Section8 = () => {
       <div className="overflow-x-scroll [scrollbar-width:none] ">
         <div className="flex gap-[4.8rem] mx-auto w-max px-[3rem] ">
           {[1, 2, 3].map(() => (
-            <div className="flex flex-col items-center bg-light-pink pt-[4.3rem]  overflow-hidden rounded-[4rem] cursor-pointer w-[29.5rem] ">
+            <div className="flex flex-col items-center hover:scale-95 transition-all bg-light-pink pt-[4.3rem]  overflow-hidden rounded-[4rem] cursor-pointer w-[29.5rem] ">
               <div className="w-[15rem] h-[15rem] relative">
                 <img src={s8} alt="lady" />
                 <div
