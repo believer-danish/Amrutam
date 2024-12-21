@@ -49,7 +49,7 @@ const Section3 = () => {
     <section className="pt-[7rem] pb-[6.2rem]">
       {/* header */}
       <header className="flex flex-col justify-center  gap-[1.6rem] leading[2.1rem] items-center text-center mb-[4.1rem]">
-        <h1 className="text-[#3A643B] text-[3.2rem] leading-[3.6rem] font-bold  capitalize sm:text-[4.8rem] sm:leading-[5.4rem] motion-preset-typewriter-[35]  motion-duration-[8000ms]">
+        <h1 className="text-[#3A643B] text-[3.2rem] leading-[3.6rem] font-bold  capitalize sm:text-[4.8rem] sm:leading-[5.4rem] md:motion-preset-typewriter-[35]  md:motion-duration-[8000ms]">
           Discover Ayurveda’s magic with us{" "}
         </h1>
         <p className="text-[#666666] text-[1.4rem] sm:text-[2rem] leading[2.8rem] sm:max-w-[67.1rem] max-w-[29.8rem]">
